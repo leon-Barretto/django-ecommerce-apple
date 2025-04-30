@@ -64,6 +64,66 @@ nav ul li a:hover {
   font-size: 2.5rem;
 }
 
+/* Apple Ads Section */
+.apple-ads {
+  padding: 4rem 2rem;
+  background-color: #f5f5f7;
+}
+
+.ad-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.ad-left, .ad-right {
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.ad-left:hover, .ad-right:hover {
+  transform: translateY(-5px);
+}
+
+.ad-left img,
+.ad-right img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.ad-left p,
+.ad-right p {
+  font-size: 1.1rem;
+  color: #1d1d1f;
+  margin: 0.5rem 0 1.5rem;
+}
+
+/* Buy Button */
+.buy-btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #0071e3;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #005bb5;
+}
+
+
 /* Product Sections */
 .product-mac,
 .product-iphone,
