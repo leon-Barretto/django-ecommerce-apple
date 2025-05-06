@@ -101,11 +101,47 @@ nav ul li a:hover {
 }
 
 .ad-left p,
-.ad-right p {
+.ad-right p,
+.ad-left2 p {
   font-size: 1.1rem;
   color: #1d1d1f;
   margin: 0.5rem 0 1.5rem;
 }
+
+/* Trying to understand the styling again*/
+.apple-ads2{
+  padding: 4rem 2rem;
+  background-color: white;
+
+}
+
+.ad-row2{
+  display: flex;
+  justify-content: center;
+}
+
+.ad-left2 {
+  background-color: white;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+}
+
+.ad-left2 img {
+  max-width: 100%;
+  height: auto;
+}
+.ad-left2:hover, .ad-right2:hover {
+  transform: translateY(-100px);
+}
+
+
+
+
 
 /* Buy Button */
 .buy-btn {

@@ -16,7 +16,3 @@ def product_list(request):
     }
     return render(request, 'apple/apple_home.html', context)
 
-def ipad_detail(request):
-    return render(request, 'apple/ad-ipad.html')
-def iphone_detail(request):
-    return render(request, 'apple/ad-iphone.html')
